@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans;
+}
+
+.hero{
+    background-image:linear-gradient(00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 919px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-container{
+    width: 1023px;
+    height: 393px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.subtitle{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 600;
+    opacity: 0.8;
+}
+.subtext{
+    color: rgb(255, 255, 255);
+    font-size: 64px;
+    font-weight: 700;
+    text-align: center;
+    margin: 16px 0px;
+}
+.drescreption{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    opacity: 0,7;
+    margin: 24px 0;
+}
+.btn{
+    background: rgb(82, 195, 3);
+    width: 280px;
+    height: 66px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 32px 0;
+    border-radius: 8px;
+    padding: 21px 32px 21px 32px;
+}
+.head-button{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+
+}
+/* card box desine */
+
+.card-box{
+    width: 1900px;
+    height: 1222px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 167px;
+    align-items: center;
+
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    border-radius: 50px;
+}
+/* head text digaine */
+.head-text{
+    width: 690px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 0 48px 0;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.head-text > p{
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+}
+.head-text > h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: rgb(16, 16, 16);
+    text-align: center;
+}
+/* head text dihain end */
+/* card digain start now */
+.item{
+    display: flex;
+    align-items: center;
+}
+.item-box{
+    width: 424px;
+    height: 600px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 0 24px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 20px;
+
+}
+.item-box .item-button{
+    width: 187px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 14px 32px 14px 32px;
+    margin: 24px 0px;
+    border: none;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(16, 16, 16);
+    text-align: center;
+    cursor: pointer;
+}
+.item-box .item-text{
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 600;
+    margin: 24px 0px;
+}
+.item-box .item-subtext{
+    color: rgb(16, 16, 16);
+    margin: 24px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+/* item button dihgain */
+.item-btn{
+    width: 207px;
+    height: 66px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    align-items: center;
+    margin: 64px 0px 0px 0px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.item-btn > button{
+    width: 250px;
+    height: 42px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background: transparent;
+    padding: 21px 32px 21px 32px;
+    border: none;
+    border-radius: 8px;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+/* mini car disgain */
+.mini-card{
+    width: 1900px;
+    height: 920px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 180px;
+}
+.mini-card .item-box{
+    height: 690px;
+}
+.mini-btn{
+    width: 160px;
+    height: 30px;
+    padding: 21px 32px 21px 32px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    margin: 52px ;
+}
+.mini-btn > button{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background: transparent;
+    cursor: pointer;
+    border: none;
+}
+/* start about section */
+.about{
+    width: 1900px;
+    height: 671px;
+    display: flex;
+}
+.about-box{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+}
+.about-box.img{
+    width:960px ;
+}
+.about-card{
+    width:940px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding: 0%;
+}
+.about-card > h2{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 24px 0px;
+    color: rgb(16, 16, 16);
+
+}
+.about-card > p{
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 0.6;
+    margin: 24px 0px;
+}
+.about-card > h3{
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    padding: 30px 10px 30px 10px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin: 48px 0px;
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(16, 16, 16);
+
+}
+/* social box digain start */
+.social{
+    width: 1900px;
+    height: 671px;
+    background-image:linear-gradient(180deg, rgb(255, 255, 255) -19.5%,rgba(237, 225, 225, 0.378) 100%),url('../assets/social-bg.png');
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.social-box{
+    width: 830px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+.social-box > h3{
+    font-size: 48px;
+    font-weight: 700;
+    margin: 24px;
+}
+.social-box > h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: rgb(16, 16, 16);
+    opacity: 0.6;
+    padding: 30px 10px 30px 10px;
+    margin:48px;
+    background-color: white;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.social-box > p{
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 0.6;
+}
